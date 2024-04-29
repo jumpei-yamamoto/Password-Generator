@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator React",
+  "version": "1.0",
+  "permissions": ["clipboardWrite", "storage", "activeTab", "tabs"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "icons/passwordgenerator128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["form.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "128": "icons/passwordgenerator128.png"
+  }
+}
