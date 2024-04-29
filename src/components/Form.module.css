@@ -1,0 +1,35 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* ビューポートの高さに合わせてコンテンツを中央に配置 */
+}
+
+.formContent {
+  width: 90%;
+  max-width: 500px; /* 最大幅を制限 */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.field {
+  margin-bottom: 20px; /* 各フィールド間の間隔 */
+  text-align: left; /* テキストを左揃えに */
+}
+
+.label {
+  display: block; /* ラベルをブロック要素に */
+  margin-bottom: 5px; /* ラベルと入力フィールドの間隔 */
+}
+
+input[type="text"],
+input[type="checkbox"] {
+  margin-right: 10px; /* チェックボックスとラベルの間隔 */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center; /* ボタンを中央に配置 */
+}
